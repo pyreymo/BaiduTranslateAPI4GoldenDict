@@ -272,8 +272,10 @@
     <p>加载失败</p>
   </div>
   <script>
-    translate(my_word, function(data) {
-      $("div.myword > p").html(my_word + "<br />" + data);
+    $(function() {
+      translate(my_word, function(data) {
+        $("div.myword > p").html(my_word + "<br />" + data);
+      });
     });
   </script>
 </body>
