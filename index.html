@@ -1,6 +1,9 @@
 <!DOCTYPE html>
-<head>
-  <meta charset="utf-8" />
+<head lang="en">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>向龙为你提供的百度翻译API</title>
   <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
   <script>
     var MD5 = function(string) {
@@ -266,12 +269,11 @@
 </head>
 <body>
   <div class="myword">
-    <b>百度翻译：</b><br />
     <p></p>
-    <script>
-      translate(my_word, function(data) {
-        $("div.myword > p").text(my_word + "\n" + data);
-      });
-    </script>
   </div>
+  <script>
+    translate(my_word, function(data) {
+      $("div.myword > p").html(my_word + "<br />" + data);
+    });
+  </script>
 </body>
