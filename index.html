@@ -266,10 +266,12 @@
 </head>
 <body>
   <div class="myword">
-      <script>
-        translate(my_word, function(data) {
-          $("div.myword").text(data);
-        });
-      </script>
+    <b>百度翻译：</b><br />
+    <p></p>
+    <script>
+      translate(my_word, function(data) {
+        $("div.myword > p").text(my_word + "\n" + data);
+      });
+    </script>
   </div>
 </body>
