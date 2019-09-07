@@ -1,0 +1,2 @@
+# BaiduTranslateAPI4GoldenDict
+# BaiduTranslateAPI4GoldenDict
