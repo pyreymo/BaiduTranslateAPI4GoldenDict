@@ -1,3 +1,3 @@
 # BaiduTranslateAPI4GoldenDict
 
-[测试](https://pyreymo.github.io/BaiduTranslateAPI4GoldenDict/?word=Hello%20world!)
+[API Test](https://pyreymo.github.io/BaiduTranslateAPI4GoldenDict/?word=Hello%20world!)
